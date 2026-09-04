@@ -1,4 +1,7 @@
-package org.example.model
+package model;
 
-class Estado {
+sealed class Estado {
+    object Normal: Estado()
+    object Muerto: Estado()
+    object Envenenado: Estado()
 }
