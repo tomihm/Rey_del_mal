@@ -1,4 +1,4 @@
-package model;
+package model
 
 open class Personaje(
     val nombre:String,

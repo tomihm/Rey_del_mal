@@ -1,4 +1,4 @@
-package model;
+package model
 
 import kotlinx.coroutines.delay;
 

@@ -1,4 +1,4 @@
-package model;
+package model
 
 sealed class Estado {
     object Normal: Estado()
