@@ -4,7 +4,7 @@ open class Personaje(
     val nombre:String,
     val ataque: Int,
     var vida: Int,
-    var estado: Estado.Normal
+    var estado: Estado = Estado.Normal
     ){
     suspend fun accion(objetivo: Personaje, hechizo: suspend (Personaje) -> Unit){
         if (estado is Estado.Muerto){
